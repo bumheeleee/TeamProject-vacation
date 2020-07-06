@@ -1,5 +1,6 @@
 package com.professionalandroid.apps.test
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -13,7 +14,7 @@ class test2 : AppCompatActivity() {
         setContentView(R.layout.activity_test2)
         //val btnlogin:Button = findViewById(R.id.btn_Login)
         btn_Login.setOnClickListener {
-            btn_Login.setText("범희")
+            startActivity(Intent(this,MainActivity::class.java))
         }
     }
 }
