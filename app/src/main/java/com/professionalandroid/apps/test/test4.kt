@@ -14,7 +14,7 @@ class test4 : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.activity_test3,container,false)
+        return inflater.inflate(R.layout.activity_test4, container ,false)
     }
 
 }
