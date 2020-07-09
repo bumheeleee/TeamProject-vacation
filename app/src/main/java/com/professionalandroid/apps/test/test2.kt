@@ -16,5 +16,6 @@ class test2 : AppCompatActivity() {
         btn_Login.setOnClickListener {
             startActivity(Intent(this,MainActivity::class.java))
         }
+        intent.getIntExtra("leebumhee" , 0)
     }
 }
